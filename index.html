@@ -2,7 +2,19 @@
 layout: default
 title: Home
 ---
-<div class="page-home-container">
-    <img src="assets\images\flow-bauhaus93.png" alt="Flow Logo" width="50%" height="50%">
-    <p>Em breve contamos mais da Flow para vocês.</p>
+
+<div class="page-container">
+  <h1>flow</h1>
+  <h2>Aprendizagem Fluida</h2>
+  <button id="learnMoreBtn">Saiba Mais</button>
+  <div class="social-icons-container">
+    <a href="https://www.instagram.com/sejaflow/" class="fa fa-instagram"></a>
+    <a href="https://github.com/sejaflow" class="fa fa-github"></a>
+  </div>
 </div>
+
+<script type="text/javascript">
+    document.getElementById("learnMoreBtn").onclick = function () {
+        location.href = "{{ "/sobre.html" | relative_url }}";
+    };
+</script>

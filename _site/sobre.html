@@ -3,27 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <title>Sobre</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <nav class="nav-container">
-  <div class="logo">
-      <a href="/"><img src="..\assets\images\logo-texto-bauhaus93-659x379.png" alt="Logo Image" width="85" height="50"></a>
+    <div class="page-container">
+    <h2>Mais informações em breve.</h2>
+    <button id="backBtn">Voltar</button>
   </div>
-  <!-- <div class="pages-container">
-    <div class="pages">
-      
-        <a href="/" >Home</a>
-      
-        <a href="" >Sobre</a>
-      
-    </div>
-  </div> -->
-  <div class="clearfix"></div>
-</nav>
-    <div class="page-about-container">
-</div>
+
+  <script type="text/javascript">
+    document.getElementById("backBtn").onclick = function () {
+        location.href = "/";
+    };
+</script>
 
   </body>
 </html>

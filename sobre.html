@@ -3,5 +3,13 @@ layout: default
 title: Sobre
 ---
 
-<div class="page-about-container">
-</div>
+<div class="page-container">
+    <h2>Mais informações em breve.</h2>
+    <button id="backBtn">Voltar</button>
+  </div>
+
+  <script type="text/javascript">
+    document.getElementById("backBtn").onclick = function () {
+        location.href = "{{ "/" | relative_url }}";
+    };
+</script>
