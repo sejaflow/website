@@ -18,7 +18,7 @@
 .page-container > h1 {
   font-size: 8vw;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .page-container > h2 {
@@ -26,14 +26,20 @@
   text-align: center;
 }
 
-button{
+.page-container > p {
+  font-size: 1vw;
+  text-align: center;
+  margin: 2vh auto;
+}
+
+button {
   border: 2px solid white;
   border-radius: 5px;
   font-size: 1.1vw;
   padding: 0.8vw;
   display: block;
-  margin: 2vw auto;
-  width: 25%;
+  margin: 3vh auto 1.5vh auto;
+  width: 30%;
 }
 
 button:hover {
@@ -46,10 +52,10 @@ button:active {
   color: white;
 }
 
-.social-icons-container{
+.social-icons-container {
   display: block;
-  margin: 0 auto;
-  width: 11vw;
+  margin: 2vh auto;
+  width: 15vw;
 }
 
 .fa {
@@ -68,4 +74,152 @@ button:active {
 
 .fa:active {
   color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .page-container {
+    width: 100%;
+  }
+
+  .page-container > h1 {
+    font-size: 15vw;
+  }
+  
+  .page-container > h2 {
+    font-size: 3vw;
+  }
+
+  .page-container > p {
+    font-size: 2vw;
+    text-align: center;
+    width: 60%;
+  }
+
+  button {
+    font-size: 2.7vw;
+  }
+
+  .fa {
+    font-size: 5vw !important;
+    margin: 0 1vw;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .page-container {
+    width: 100%;
+  }
+
+  .page-container > h1 {
+    font-size: 12vw;
+  }
+  
+  .page-container > h2 {
+    font-size: 2.4vw;
+  }
+
+  .page-container > p {
+    font-size: 1.8vw;
+    text-align: center;
+    width: 65%;
+  }
+
+  button {
+    font-size: 2.2vw;
+  }
+
+  .fa {
+    font-size: 3.5vw !important;
+    margin: 0 1vw;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .page-container {
+    width: 100%;
+  }
+
+  .page-container > h1 {
+    font-size: 9vw;
+  }
+  
+  .page-container > h2 {
+    font-size: 2.1vw;
+  }
+
+  .page-container > p {
+    font-size: 1.6vw;
+    text-align: center;
+    width: 70%;
+  }
+
+  button {
+    font-size: 1.8vw;
+  }
+
+  .fa {
+    font-size: 3vw !important;
+    margin: 0 1vw;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .page-container {
+    width: 50%;
+  }
+  
+  .page-container > h1 {
+    font-size: 8vw;
+  }
+  
+  .page-container > h2 {
+    font-size: 1.5vw;
+  }
+
+  .page-container > p {
+    font-size: 1.4vw;
+    text-align: center;
+    width: 75%;
+  }
+  
+  button {
+    font-size: 1.1vw;
+  }
+  
+  .fa {
+    font-size: 2vw !important;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .page-container {
+    width: 50%;
+  }
+  
+  .page-container > h1 {
+    font-size: 9vw;
+  }
+  
+  .page-container > h2 {
+    font-size: 1.7vw;
+  }
+
+  .page-container > p {
+    font-size: 1.2vw;
+    text-align: center;
+    width: 80%;
+  }
+  
+  button {
+    font-size: 1.3vw;
+  }
+  
+  .fa {
+    font-size: 2.3vw !important;
+  }
 }
