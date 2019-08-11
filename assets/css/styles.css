@@ -12,25 +12,25 @@
   display: block;
   margin: 0 auto;
   padding: 23vh 10px 10px 10px;
-  width: 75%;
+  width: 90%;
 }
 
 .page-container > h1 {
-  font-size: 8vw;
+  font-size: 14vw;
   text-align: center;
   font-family: "Pacifico", cursive;
 }
 
 .page-container > h2 {
-  font-size: 1.5vw;
+  font-size: 4vw;
   text-align: center;
 }
 
 .page-container > p {
-  font-size: 1vw;
+  font-size: 3vw;
   text-align: center;
   margin: 2vh auto;
-  width: 80%;
+  width: 88%;
 }
 
 button {
@@ -56,7 +56,7 @@ button:active {
 .social-icons-container {
   display: block;
   margin: 2vh auto;
-  width: 15vw;
+  width: 30vw;
 }
 
 .fa {
@@ -65,7 +65,7 @@ button:active {
   text-align: center;
   text-decoration: none;
   color: white;
-  font-size: 2vw !important;
+  font-size: 5.5vw !important;
 }
 
 .fa:hover {
@@ -78,7 +78,7 @@ button:active {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .page-container > h1 {
     font-size: 16vw;
   }
@@ -99,10 +99,10 @@ button:active {
     font-size: 5vw !important;
     margin: 0 1vw;
   }
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .page-container > h1 {
     font-size: 14vw;
   }
@@ -123,10 +123,10 @@ button:active {
     font-size: 3.5vw !important;
     margin: 0 1vw;
   }
-}
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .page-container > h1 {
     font-size: 12vw;
   }
@@ -151,10 +151,10 @@ button:active {
   .social-icons-container {
     width: 20vw;
   }
-}
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .page-container > h1 {
     font-size: 10vw;
   }
@@ -174,10 +174,10 @@ button:active {
   .fa {
     font-size: 3vw !important;
   }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .page-container > h1 {
     font-size: 9vw;
   }
@@ -197,4 +197,4 @@ button:active {
   .fa {
     font-size: 2.3vw !important;
   }
-}
+} */
