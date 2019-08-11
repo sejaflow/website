@@ -7,12 +7,12 @@
 }
 
 .page-container {
-  max-width: 500px;
+  /* max-width: 500px; */
   padding: 10px;
   display: block;
   margin: 0 auto;
-  padding: 30vh 10px 10px 10px;
-  width: 50%;
+  padding: 23vh 10px 10px 10px;
+  width: 75%;
 }
 
 .page-container > h1 {
@@ -30,6 +30,7 @@
   font-size: 1vw;
   text-align: center;
   margin: 2vh auto;
+  width: 80%;
 }
 
 button {
@@ -78,22 +79,16 @@ button:active {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .page-container {
-    width: 100%;
+  .page-container > h1 {
+    font-size: 16vw;
   }
 
-  .page-container > h1 {
-    font-size: 15vw;
-  }
-  
   .page-container > h2 {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
   .page-container > p {
-    font-size: 2vw;
-    text-align: center;
-    width: 60%;
+    font-size: 2.8vw;
   }
 
   button {
@@ -104,26 +99,20 @@ button:active {
     font-size: 5vw !important;
     margin: 0 1vw;
   }
-} 
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .page-container {
-    width: 100%;
+  .page-container > h1 {
+    font-size: 14vw;
   }
 
-  .page-container > h1 {
-    font-size: 12vw;
-  }
-  
   .page-container > h2 {
     font-size: 2.4vw;
   }
 
   .page-container > p {
-    font-size: 1.8vw;
-    text-align: center;
-    width: 65%;
+    font-size: 2.2vw;
   }
 
   button {
@@ -134,26 +123,20 @@ button:active {
     font-size: 3.5vw !important;
     margin: 0 1vw;
   }
-} 
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .page-container {
-    width: 100%;
+  .page-container > h1 {
+    font-size: 12vw;
   }
 
-  .page-container > h1 {
-    font-size: 9vw;
-  }
-  
   .page-container > h2 {
-    font-size: 2.1vw;
+    font-size: 2.2vw;
   }
 
   .page-container > p {
-    font-size: 1.6vw;
-    text-align: center;
-    width: 70%;
+    font-size: 1.8vw;
   }
 
   button {
@@ -162,63 +145,55 @@ button:active {
 
   .fa {
     font-size: 3vw !important;
-    margin: 0 1vw;
+    margin: 0 1.5vw;
   }
-} 
+
+  .social-icons-container {
+    width: 20vw;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .page-container {
-    width: 50%;
-  }
-  
   .page-container > h1 {
-    font-size: 8vw;
+    font-size: 10vw;
   }
-  
+
   .page-container > h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
+  }
+
+  .page-container > p {
+    font-size: 1.8vw;
+  }
+
+  button {
+    font-size: 1.1vw;
+  }
+
+  .fa {
+    font-size: 3vw !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .page-container > h1 {
+    font-size: 9vw;
+  }
+
+  .page-container > h2 {
+    font-size: 1.8vw;
   }
 
   .page-container > p {
     font-size: 1.4vw;
-    text-align: center;
-    width: 75%;
-  }
-  
-  button {
-    font-size: 1.1vw;
-  }
-  
-  .fa {
-    font-size: 2vw !important;
-  }
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .page-container {
-    width: 50%;
-  }
-  
-  .page-container > h1 {
-    font-size: 9vw;
-  }
-  
-  .page-container > h2 {
-    font-size: 1.7vw;
   }
 
-  .page-container > p {
-    font-size: 1.2vw;
-    text-align: center;
-    width: 80%;
-  }
-  
   button {
     font-size: 1.3vw;
   }
-  
+
   .fa {
     font-size: 2.3vw !important;
   }
